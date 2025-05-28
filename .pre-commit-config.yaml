@@ -16,3 +16,10 @@ repos:
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
+  - repo: local
+    hooks:
+      - id: pytest
+        name: Run tests
+        entry: pytest -v tests/
+        language: system
+        types: [ python ]
