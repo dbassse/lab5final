@@ -5,12 +5,11 @@ description = "Tkinter-приложение для управления спис
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-# Задаём минимальную Python-версию, совместимую с вашим кодом
-# (например, если вы используете typing-аннотации List[int], 3.8+ достаточно)
+
 
 
 [tool.poetry.dependencies]
-# Здесь только внешние пакеты, что не входят в stdlib
+
 pandas = "^2.0"
 python = "^3.12"
 pyarrow = "^20.0.0"
